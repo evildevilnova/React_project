@@ -1,0 +1,14 @@
+.animate {
+  animation: MoveUpDown 2.5s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes MoveUpDown {
+  0%{
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.grow:hover { transform: scale(1.1); }
