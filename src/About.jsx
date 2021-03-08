@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div style={{height: "83vh"}}>
-        <Common h1='This is About of' web={web} button="Connect" />   
+        <Common h1='This is About of' web={web} button1="Connect" />   
       </div>
     </>
   );

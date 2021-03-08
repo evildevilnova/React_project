@@ -6,7 +6,7 @@ import Service from './Service';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle"; 
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"; 
 import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/service" component={Service} />
-        <Redirect to="/" />
+        <Redirect to="/React_project" />
       </Switch>
       <Footer />
     </>

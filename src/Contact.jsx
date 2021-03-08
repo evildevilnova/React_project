@@ -50,7 +50,7 @@ const Contact = () => {
                 <label for="msg" className="form-label">Message</label>
                 <textarea className="form-control grow shadow" id="msg" name="msg" value={state.msg} onChange={input1} rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary shadow grow" onClick={btnclick} >Submit</button>
+              <button type="submit" class="btn btn-outline-primary shadow grow" onClick={btnclick} >Submit</button>
 
             </form>
           </div>
